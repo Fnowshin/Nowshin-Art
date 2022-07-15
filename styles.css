@@ -58,3 +58,19 @@ p{
     width: 50%;
     margin-top: 100px;
 }
+.video-art{
+    margin-left: 50px;
+}
+caption{
+    text-align: center;
+}
+.draw-art{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(0, 0, 240);
+}
