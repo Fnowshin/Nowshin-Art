@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(141, 218, 228);
+}
+h1{
+    font-size: 30px;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: rgb(16, 53, 53);
+}
+.part-image{
+    border-radius: 50%;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.title:hover{
+    color: darkblue;
+}
+.container{
+    display: flex;
+}
+.right-side{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.left-side{
+    width: 50%;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.Hire{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    background-color: rgb(94, 94, 202);
+    border-radius: 20% 5%;
+    padding: 20px 40px;
+    margin: 5px;
+}
