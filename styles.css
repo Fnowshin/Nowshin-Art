@@ -28,14 +28,11 @@ p{
 .right-side{
     width: 50%;
     position: relative;
-    margin-top: 40px;
-    margin-left: 30px;
 }
 .left-side{
     width: 50%;
     position: relative;
-    margin-top: 100px;
-    margin-right: 40px;
+
 }
 .Hire{
     position: sticky;
@@ -50,9 +47,6 @@ p{
 .second-left{
     position: relative;
     width: 50%;
-    margin-top: 300px;
-    margin-left: 30px;
-    margin-right: 80px;
 }
 
 .second-right{
