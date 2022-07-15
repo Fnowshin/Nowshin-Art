@@ -38,6 +38,7 @@ p{
     margin-right: 40px;
 }
 .Hire{
+    position: sticky;
     text-decoration: none;
     color: aliceblue;
     font-size: larger;
