@@ -3,6 +3,7 @@ body{
 }
 h1{
     font-size: 30px;
+    text-align: center;
 }
 h3{
     text-align: center;
@@ -34,7 +35,7 @@ p{
     width: 50%;
     position: relative;
     margin-top: 100px;
-    
+    margin-right: 40px;
 }
 .Hire{
     text-decoration: none;
