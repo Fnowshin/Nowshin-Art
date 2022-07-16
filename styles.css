@@ -22,14 +22,22 @@ p{
 .container{
     display: flex;
     justify-content: space-around;
+    height: 700px;
+    margin-bottom: 40px;
+    border: dotted;
+    align-items: center;
     overflow-wrap: break-word;
 }
 .right-side{
     min-width: 50%;
+    border: dotted;
    
 }
 .left-side{
+    border: dotted;
     min-width: 50%;
+    text-overflow: ellipsis;
+    overflow: scroll(y);
 
 }
 .Hire{
@@ -39,25 +47,29 @@ p{
     font-size: larger;
     background-color: rgb(94, 94, 202);
     border-radius: 20% 5%;
-    padding: 20px 40px;
+    padding: 20px 20px;
     margin: 5px;
 }
 .second-left{
-    padding-left: 40px;
-    padding-top: 200px;
-    padding-right: 50px;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 10%;
+    text-overflow: ellipsis;
 }
 
 .second-right{
-   
-    margin-top: 100px;
+    width: 50%;
+    margin-top: 50px;
 }
 .video-art{
     width: 50%;
+    padding-left: 10%;
+    text-overflow: ellipsis;
 }
 .draw-art{
     width: 50%;
     margin-top: 50px;
+    padding-left: 10%;
 }
 footer{
     margin-top: 100px;
