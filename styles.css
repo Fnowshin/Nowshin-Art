@@ -28,11 +28,11 @@ p{
     overflow-wrap: break-word;
 }
 .right-side{
-    min-width: 50%;
+    width: 50%;
    
 }
 .left-side{
-    min-width: 50%;
+    width: 50%;
     text-overflow: ellipsis;
     overflow: scroll(y);
 
@@ -49,24 +49,27 @@ p{
 }
 .second-left{
     width: 50%;
-    padding-left: 10%;
+    border: dotted;
     padding-top: 10%;
     text-overflow: ellipsis;
+    
 }
 
 .second-right{
     width: 50%;
+    border: dotted;
     margin-top: 50px;
 }
 .video-art{
     width: 50%;
-    padding-left: 10%;
     text-overflow: ellipsis;
 }
 .draw-art{
     width: 50%;
     margin-top: 50px;
-    padding-left: 10%;
+}
+.center{
+    display: block;
 }
 footer{
     margin-top: 100px;
