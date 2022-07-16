@@ -5,9 +5,6 @@ h1{
     font-size: 30px;
     text-align: center;
 }
-h3{
-    text-align: center;
-}
 p{
     color: rgb(16, 53, 53);
 }
@@ -25,14 +22,14 @@ p{
 .container{
     display: flex;
     justify-content: space-around;
+    overflow-wrap: break-word;
 }
 .right-side{
     min-width: 50%;
-    position: relative;
+   
 }
 .left-side{
     min-width: 50%;
-    position: relative;
 
 }
 .Hire{
@@ -52,24 +49,18 @@ p{
 }
 
 .second-right{
-    position: relative;
-    width: 50%;
+   
     margin-top: 100px;
 }
 .video-art{
-    margin-left: 50px;
-}
-caption{
-    text-align: center;
+    width: 50%;
 }
 .draw-art{
-    margin-left: 100px;
-    margin-right: 50px;
+    width: 50%;
     margin-top: 50px;
 }
 footer{
     margin-top: 100px;
     text-align: center;
     color: rgb(0, 0, 240);
-    white-space: nowarp;
 }
