@@ -24,17 +24,14 @@ p{
     justify-content: space-around;
     height: 700px;
     margin-bottom: 40px;
-    border: dotted;
     align-items: center;
     overflow-wrap: break-word;
 }
 .right-side{
     min-width: 50%;
-    border: dotted;
    
 }
 .left-side{
-    border: dotted;
     min-width: 50%;
     text-overflow: ellipsis;
     overflow: scroll(y);
