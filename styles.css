@@ -49,7 +49,6 @@ p{
 }
 .second-left{
     width: 50%;
-    border: dotted;
     padding-top: 10%;
     text-overflow: ellipsis;
     
@@ -57,7 +56,6 @@ p{
 
 .second-right{
     width: 50%;
-    border: dotted;
     margin-top: 50px;
 }
 .video-art{
