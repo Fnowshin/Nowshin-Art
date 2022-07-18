@@ -5,7 +5,7 @@ body{
     margin: 0 auto;
 }
 h1{
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
 }
 p{
@@ -22,7 +22,9 @@ p{
 .split img {
     width: 100%;
 }
-
+.split video {
+    width: 100%;
+}
 
 .part-image{
     border-radius: 50%;
@@ -45,15 +47,6 @@ p{
     margin-bottom: 40px;
     overflow-wrap: break-word;
 } */
-.right-side img{
-    width: 100%;
-   
-}
-.left-side{
-    width: 50%;
-    text-overflow: ellipsis;
-    
-}
 .Hire{
     position: sticky;
     text-decoration: none;
@@ -61,7 +54,7 @@ p{
     font-size: larger;
     background-color: rgb(94, 94, 202);
     border-radius: 20% 5%;
-    padding: 20px 20px;
+    padding: 2vw 2vw;
     margin: 5px;
 }
 .second-left{
@@ -85,9 +78,7 @@ p{
 .draw-art{
     width: 50%;
 }
-.center{
-    display: block;
-}
+
 footer{
     margin-top: 100px;
     text-align: center;
