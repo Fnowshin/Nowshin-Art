@@ -1,13 +1,29 @@
 body{
     background-color: rgb(141, 218, 228);
+    border: 1px solid plum;
+    max-width: 1240px;
+    margin: 0 auto;
 }
 h1{
-    font-size: 30px;
+    font-size: 5vw;
     text-align: center;
 }
 p{
     color: rgb(16, 53, 53);
+} 
+/* testing */ 
+.two-container{
+    display: flex;
+    align-items: center;
 }
+.two-container .split{
+    width: 50%;
+}
+.split img {
+    width: 100%;
+}
+
+
 .part-image{
     border-radius: 50%;
 }
@@ -20,23 +36,23 @@ p{
 .title:hover{
     color: darkblue;
 }
+/*
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 700px;
+    height: 800px;
     margin-bottom: 40px;
     overflow-wrap: break-word;
-}
-.right-side{
-    width: 50%;
+} */
+.right-side img{
+    width: 100%;
    
 }
 .left-side{
     width: 50%;
     text-overflow: ellipsis;
-    overflow: scroll(y);
-
+    
 }
 .Hire{
     position: sticky;
@@ -55,6 +71,9 @@ p{
     
 }
 
+.second-right img{
+    width: 100%;
+}
 .second-right{
     width: 50%;
     margin-top: 50px;
@@ -73,4 +92,15 @@ footer{
     margin-top: 100px;
     text-align: center;
     color: rgb(0, 0, 240);
+}
+
+/* smaller device */
+
+@media screen and (max-width: 576px ) {
+    
+}
+/* Medium device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
 }
