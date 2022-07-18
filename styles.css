@@ -1,11 +1,9 @@
 body{
     background-color: rgb(141, 218, 228);
-    border: 1px solid plum;
     max-width: 1240px;
     margin: 0 auto;
 }
 h1{
-    font-size: 3vw;
     text-align: center;
 }
 p{
@@ -15,9 +13,13 @@ p{
 .two-container{
     display: flex;
     align-items: center;
+    row-gap: 5%;
 }
 .two-container .split{
     width: 50%;
+}
+.split{
+    padding: 2% 5%;
 }
 .split img {
     width: 100%;
@@ -54,29 +56,8 @@ p{
     font-size: larger;
     background-color: rgb(94, 94, 202);
     border-radius: 20% 5%;
-    padding: 2vw 2vw;
+    padding: 15px 20px;
     margin: 5px;
-}
-.second-left{
-    width: 50%;
-    padding-top: 10%;
-    text-overflow: ellipsis;
-    
-}
-
-.second-right img{
-    width: 100%;
-}
-.second-right{
-    width: 50%;
-    margin-top: 50px;
-}
-.video-art{
-    width: 50%;
-    text-overflow: ellipsis;
-}
-.draw-art{
-    width: 50%;
 }
 
 footer{
@@ -92,6 +73,6 @@ footer{
 }
 /* Medium device */
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 1240px) {
     
 }
